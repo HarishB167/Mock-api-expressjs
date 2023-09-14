@@ -1,0 +1,592 @@
+{
+  "symbols_remaining": 63,
+  "symbols": [
+    {
+      "symbol": "IDEA",
+      "description": "VODAFONE IDEA LTD",
+      "type": "stock",
+      "exchange": "NSE",
+      "currency_code": "INR",
+      "logoid": "vodafone-idea",
+      "provider_id": "ice",
+      "country": "IN",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEA",
+      "description": "VODAFONE IDEA FUTURES",
+      "type": "futures",
+      "exchange": "NSE",
+      "currency_code": "INR",
+      "logoid": "vodafone-idea",
+      "provider_id": "ice",
+      "country": "IN",
+      "contracts": [
+        {
+          "symbol": "IDEA1!",
+          "typespecs": ["continuous", "synthetic"]
+        },
+        {
+          "symbol": "IDEA2!",
+          "typespecs": ["continuous", "synthetic"]
+        },
+        {
+          "symbol": "IDEAU2023",
+          "description": "SEP 2023"
+        },
+        {
+          "symbol": "IDEAV2023",
+          "description": "OCT 2023"
+        },
+        {
+          "symbol": "IDEAX2023",
+          "description": "NOV 2023"
+        }
+      ]
+    },
+    {
+      "symbol": "IDEA",
+      "description": "VODAFONE IDEA LIMITED",
+      "type": "stock",
+      "exchange": "BSE",
+      "currency_code": "INR",
+      "logoid": "vodafone-idea",
+      "provider_id": "ice",
+      "country": "IN",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEA",
+      "description": "IDEA CELLULAR",
+      "type": "futures",
+      "exchange": "BSE",
+      "currency_code": "INR",
+      "logoid": "vodafone-idea",
+      "provider_id": "ice",
+      "country": "IN",
+      "contracts": [
+        {
+          "symbol": "IDEA1!",
+          "typespecs": ["continuous", "synthetic"]
+        },
+        {
+          "symbol": "IDEA2!",
+          "typespecs": ["continuous", "synthetic"]
+        },
+        {
+          "symbol": "IDEAU2023",
+          "description": "SEP 2023"
+        },
+        {
+          "symbol": "IDEAV2023",
+          "description": "OCT 2023"
+        },
+        {
+          "symbol": "IDEAX2023",
+          "description": "NOV 2023"
+        }
+      ]
+    },
+    {
+      "symbol": "IDEA",
+      "description": "PERP INNOV TMF UNITS",
+      "type": "fund",
+      "exchange": "ASX",
+      "currency_code": "AUD",
+      "provider_id": "ice",
+      "country": "AU",
+      "typespecs": ["etf"]
+    },
+    {
+      "symbol": "IDEA",
+      "description": "IDEA INDONESIA AKADEMI TBK",
+      "type": "stock",
+      "exchange": "IDX",
+      "currency_code": "IDR",
+      "provider_id": "ice",
+      "country": "ID",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEA",
+      "description": "Invent Ventures, Inc.",
+      "type": "stock",
+      "exchange": "OTC",
+      "currency_code": "USD",
+      "provider_id": "ice",
+      "country": "US",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEAS",
+      "description": "IDEAL FINANSAL TEKNOLOJILER",
+      "type": "stock",
+      "exchange": "BIST",
+      "currency_code": "TRY",
+      "logoid": "idealist-danismanlik",
+      "provider_id": "ice",
+      "country": "TR",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEAL",
+      "description": "IDEAL CAPITAL BERHAD",
+      "type": "stock",
+      "exchange": "MYX",
+      "currency_code": "MYR",
+      "provider_id": "ice",
+      "country": "MY",
+      "is_primary_listing": true,
+      "typespecs": ["common", "sharia"]
+    },
+    {
+      "symbol": "IDEAUSDT",
+      "description": "Ideaology / Tether",
+      "type": "spot",
+      "exchange": "KUCOIN",
+      "currency_code": "USDT",
+      "currency-logoid": "crypto/XTVCUSDT",
+      "base-currency-logoid": "crypto/XTVCIDEA",
+      "provider_id": "kucoin",
+      "typespecs": ["crypto"]
+    },
+    {
+      "symbol": "IDEAFORGE",
+      "description": "IDEAFORGE TECHNO LTD",
+      "type": "stock",
+      "exchange": "NSE",
+      "currency_code": "INR",
+      "provider_id": "ice",
+      "country": "IN",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEX",
+      "description": "Ideanomics, Inc.",
+      "type": "stock",
+      "exchange": "NASDAQ",
+      "currency_code": "USD",
+      "provider_id": "ice",
+      "country": "US",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDGYO",
+      "description": "IDEALIST GMYO",
+      "type": "fund",
+      "exchange": "BIST",
+      "currency_code": "TRY",
+      "logoid": "idealist-gyo",
+      "provider_id": "ice",
+      "country": "TR",
+      "typespecs": ["reit"]
+    },
+    {
+      "symbol": "IDEAWBNB_602964",
+      "description": "PEPECOLA / WRAPPED BNB on BSC (602964...61E24C)",
+      "type": "spot",
+      "exchange": "PANCAKESWAP",
+      "currency_code": "WBNB",
+      "currency-logoid": "crypto/XTVCBNB",
+      "base-currency-logoid": "crypto/XTVCIDEA",
+      "provider_id": "pancakeswap",
+      "typespecs": ["crypto"]
+    },
+    {
+      "symbol": "IDEAWBNB_602964.USD",
+      "description": "PEPECOLA / WRAPPED BNB on BSC (602964...61E24C) in USD",
+      "type": "spot",
+      "exchange": "PANCAKESWAP",
+      "currency_code": "USD",
+      "currency-logoid": "country/US",
+      "base-currency-logoid": "crypto/XTVCIDEA",
+      "provider_id": "pancakeswap",
+      "typespecs": ["crypto"]
+    },
+    {
+      "symbol": "BADUSDT",
+      "description": "BAD IDEA AI / Tether USD",
+      "type": "spot",
+      "exchange": "POLONIEX",
+      "currency_code": "USDT",
+      "currency-logoid": "crypto/XTVCUSDT",
+      "provider_id": "poloniex",
+      "typespecs": ["crypto"]
+    },
+    {
+      "symbol": "IPWR",
+      "description": "Ideal Power Inc.",
+      "type": "stock",
+      "exchange": "NASDAQ",
+      "currency_code": "USD",
+      "logoid": "ideal-power",
+      "provider_id": "ice",
+      "country": "US",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDYA",
+      "description": "IDEAYA Biosciences, Inc.",
+      "type": "stock",
+      "exchange": "NASDAQ",
+      "currency_code": "USD",
+      "logoid": "ideaya-biosciences",
+      "provider_id": "ice",
+      "country": "US",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "0A4F",
+      "description": "IDEANOMICS INC COM USD0.001(POST SPLIT)",
+      "type": "stock",
+      "exchange": "LSE",
+      "currency_code": "USD",
+      "provider_id": "ice",
+      "country": "GB",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "9768",
+      "description": "IDEA CONSULTANTS INC",
+      "type": "stock",
+      "exchange": "TSE",
+      "currency_code": "JPY",
+      "provider_id": "ice",
+      "country": "JP",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEAFORGE",
+      "description": "IDEAFORGE TECHNOLOGY LIMITED",
+      "type": "stock",
+      "exchange": "BSE",
+      "currency_code": "INR",
+      "provider_id": "ice",
+      "country": "IN",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEX",
+      "description": "IDEANOMICS INC",
+      "type": "stock",
+      "exchange": "BMV",
+      "currency_code": "MXN",
+      "provider_id": "ice",
+      "country": "MX",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "0V50",
+      "description": "IDEANOMICS INC.",
+      "type": "stock",
+      "exchange": "FWB",
+      "currency_code": "EUR",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "5ILA",
+      "description": "IDEAL POWER INC. DL-,001",
+      "type": "stock",
+      "exchange": "FWB",
+      "currency_code": "EUR",
+      "logoid": "ideal-power",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "30J",
+      "description": "IDEAYA BIOSCIENCE DL-,01",
+      "type": "stock",
+      "exchange": "FWB",
+      "currency_code": "EUR",
+      "logoid": "ideaya-biosciences",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDSM",
+      "description": "IDEAL SPINNING MILLS LTD",
+      "type": "stock",
+      "exchange": "PSX",
+      "currency_code": "PKR",
+      "logoid": "ideal-spinning-mills",
+      "provider_id": "sixgroup",
+      "country": "PK",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "8933",
+      "description": "IDEAL BIKE CORP",
+      "type": "stock",
+      "exchange": "TPEX",
+      "currency_code": "TWD",
+      "logoid": "ideal-bike",
+      "provider_id": "ice",
+      "country": "TW",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "0V50",
+      "description": "IDEANOMICS INC.",
+      "type": "stock",
+      "exchange": "MUN",
+      "currency_code": "EUR",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "0V50",
+      "description": "IDEANOMICS INC.",
+      "type": "stock",
+      "exchange": "DUS",
+      "currency_code": "EUR",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "0V50",
+      "description": "IDEANOMICS INC.",
+      "type": "stock",
+      "exchange": "BER",
+      "currency_code": "EUR",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "5ILA",
+      "description": "IDEAL POWER INC. DL-,001",
+      "type": "stock",
+      "exchange": "DUS",
+      "currency_code": "EUR",
+      "logoid": "ideal-power",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "5ILA",
+      "description": "IDEAL POWER INC. DL-,001",
+      "type": "stock",
+      "exchange": "MUN",
+      "currency_code": "EUR",
+      "logoid": "ideal-power",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "TI4",
+      "description": "IDEA FABRIK PLC LS-,01",
+      "type": "stock",
+      "exchange": "BER",
+      "currency_code": "EUR",
+      "provider_id": "ice",
+      "country": "DE",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "5ILA",
+      "description": "IDEAL POWER INC. DL-,001",
+      "type": "stock",
+      "exchange": "BER",
+      "currency_code": "EUR",
+      "logoid": "ideal-power",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "30J",
+      "description": "IDEAYA BIOSCIENCE DL-,01",
+      "type": "stock",
+      "exchange": "BER",
+      "currency_code": "EUR",
+      "logoid": "ideaya-biosciences",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "30J",
+      "description": "IDEAYA BIOSCIENCE DL-,01",
+      "type": "stock",
+      "exchange": "MUN",
+      "currency_code": "EUR",
+      "logoid": "ideaya-biosciences",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "30J",
+      "description": "IDEAYA BIOSCIENCES INC",
+      "type": "stock",
+      "exchange": "TRADEGATE",
+      "currency_code": "EUR",
+      "logoid": "ideaya-biosciences",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "XS236902064",
+      "description": "IDEAL STANDARD INTERNATIONAL 6.375% SNR SEC NTS 30/07/2026 EUR100000",
+      "type": "bond",
+      "exchange": "TRADEGATE",
+      "currency_code": "EUR",
+      "provider_id": "ice",
+      "country": "DE"
+    },
+    {
+      "symbol": "IDEAUSDT",
+      "description": "Ideaology/Tether",
+      "type": "spot",
+      "exchange": "GATEIO",
+      "currency_code": "USDT",
+      "currency-logoid": "crypto/XTVCUSDT",
+      "base-currency-logoid": "crypto/XTVCIDEA",
+      "provider_id": "gateio",
+      "typespecs": ["crypto"]
+    },
+    {
+      "symbol": "IDEAL/B-1",
+      "description": "IMPULSORA DEL DESAROLLO Y EL EMPLEO",
+      "type": "stock",
+      "exchange": "BMV",
+      "currency_code": "MXN",
+      "logoid": "impulsora-del-desarollo-y-el-empleo",
+      "provider_id": "ice",
+      "country": "MX",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "5ILA",
+      "description": "IDEAL POWER INC. DL-,001",
+      "type": "stock",
+      "exchange": "SWB",
+      "currency_code": "EUR",
+      "logoid": "ideal-power",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "30J",
+      "description": "IDEAYA BIOSCIENCES INC.",
+      "type": "stock",
+      "exchange": "SWB",
+      "currency_code": "EUR",
+      "logoid": "ideaya-biosciences",
+      "provider_id": "ice",
+      "country": "DE",
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "IDEAUSDT",
+      "description": "Ideaology / USDT",
+      "type": "spot",
+      "exchange": "MEXC",
+      "currency_code": "USDT",
+      "currency-logoid": "crypto/XTVCUSDT",
+      "base-currency-logoid": "crypto/XTVCIDEA",
+      "provider_id": "mexc",
+      "typespecs": ["crypto"]
+    },
+    {
+      "symbol": "AMTD",
+      "description": "AMTD IDEA Group",
+      "type": "dr",
+      "exchange": "NYSE",
+      "currency_code": "USD",
+      "logoid": "amtd-ib-ov",
+      "provider_id": "ice",
+      "country": "US"
+    },
+    {
+      "symbol": "INTEK",
+      "description": "IDEAL HOLDINGS S.A.",
+      "type": "stock",
+      "exchange": "ATHEX",
+      "currency_code": "EUR",
+      "logoid": "ideal-sa",
+      "provider_id": "ice",
+      "country": "GR",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "BADWETH_29C830.USD",
+      "description": "BAD IDEA AI / WRAPPED ETHER on Ethereum (29C830...82010E) in USD",
+      "type": "spot",
+      "exchange": "UNISWAP",
+      "currency_code": "USD",
+      "currency-logoid": "country/US",
+      "provider_id": "uniswap",
+      "typespecs": ["crypto"]
+    },
+    {
+      "symbol": "PBI",
+      "description": "PURPOSE BEST IDEAS FD ETF SHS",
+      "type": "fund",
+      "exchange": "TSX",
+      "currency_code": "CAD",
+      "logoid": "purpose-best-ideas-fd-etf-shs",
+      "provider_id": "ice",
+      "country": "CA",
+      "typespecs": ["etf"]
+    },
+    {
+      "symbol": "PBI.B",
+      "description": "PURPOSE BEST IDEAS FD ETF NON-CURRENCY HEDGED SHS",
+      "type": "fund",
+      "exchange": "TSX",
+      "currency_code": "CAD",
+      "logoid": "purpose-best-ideas-fd-etf-shs",
+      "provider_id": "ice",
+      "country": "CA",
+      "typespecs": ["etf"]
+    },
+    {
+      "symbol": "002740",
+      "description": "FUJIAN IDEAL JEWEL",
+      "type": "stock",
+      "exchange": "SZSE",
+      "currency_code": "CNY",
+      "provider_id": "ice",
+      "country": "CN",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    },
+    {
+      "symbol": "INNOVATIVE",
+      "description": "INNOVATIVE IDEALS AND SERVICES",
+      "type": "stock",
+      "exchange": "BSE",
+      "currency_code": "INR",
+      "provider_id": "ice",
+      "country": "IN",
+      "is_primary_listing": true,
+      "typespecs": ["common"]
+    }
+  ]
+}
