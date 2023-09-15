@@ -53,6 +53,19 @@ app.get("/search/:name", async (req, res) => {
   }
 });
 
+const news_api_url =
+  "https://api.hindustantimes.com/api/app/homenew/sectionfeed/v2/latest?size=15";
+
+app.get("/news", async (req, res) => {
+  const client = persistentClient();
+  try {
+    const { data } = await client.get(news_api_url);
+    res.send(data);
+  } catch (e) {
+    res.send("Error " + JSON.stringify(e, null, 4) + e.toString());
+  }
+});
+
 app.use(express.static("public"));
 
 app.listen(3000, () => console.log("Server started..."));
