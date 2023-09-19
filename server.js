@@ -1,9 +1,14 @@
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
-const axios = require("axios");
-const httpService = require("./services/httpService");
 const app = express();
+const server = require("http").createServer(app);
+const SocketServer = require("./socketServer");
 const persistentClient = require("./services/persistentClient");
+// const analyticsService = require("./services/googleAnalyticsService");
+
+const socketServer = new SocketServer(server);
 
 const page_url = "https://www.nseindia.com/get-quotes/equity?symbol=LT";
 
@@ -68,4 +73,6 @@ app.get("/news", async (req, res) => {
 
 app.use(express.static("public"));
 
-app.listen(3000, () => console.log("Server started..."));
+server.listen(3000, () => console.log("Server started..."));
+
+// analyticsService.runRealtimeReport();
